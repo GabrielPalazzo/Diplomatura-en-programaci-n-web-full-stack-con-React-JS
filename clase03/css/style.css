@@ -1,0 +1,16 @@
+#content{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 150px;
+    position: center;
+    width: 200;
+    height: 300;
+    background-color: darkgray;
+}
+h1{
+    color: darkblue;
+}
+p{
+    color: white;
+    font-size: 18px;
+}
