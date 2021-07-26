@@ -1,15 +1,28 @@
-#content{
+.content{
+margin: 0 auto;
     width: 500px;
-    height: 500px;
     background-color: grey;
-    border-color: black;
+    flex-direction: column;
+    color: white;
 }
-#box1{
-background-color: red;
+.box1{
+    margin-left: 70%;
+    height: 150px;
+    width: 150px;
+    font-size: 50px;
+    background-color: red;
+     }
+.box2{
+    margin-left: 70%;
+    height: 150px;
+    width: 150px;
+    font-size: 50px;
+    background-color: blue;
 }
-#box2{
-background-color: blue;
-}
-#box3{
-background-color: green;
+.box3{
+    margin-left: 70%;
+    height: 150px;
+    width: 150px;
+    font-size: 50px;
+    background-color: green;
 }
