@@ -1,0 +1,25 @@
+.content{
+	display: inline-flex;
+    flex-direction: row;
+    background-color: grey;
+    color: white;
+    }
+.box1{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: blue;
+     }
+.box2{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: red;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: green;
+}
+
