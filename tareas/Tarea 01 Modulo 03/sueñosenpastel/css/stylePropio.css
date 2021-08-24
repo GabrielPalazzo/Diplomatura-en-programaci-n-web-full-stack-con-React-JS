@@ -1,1 +1,9 @@
-/*font-family: 'Open Sans', sans-serif;*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: palegreen;
+    padding: 1em 0;
+}
