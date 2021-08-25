@@ -4,6 +4,53 @@ body{
     line-height: 20px;
 }
 header{
-    background-color: palegreen;
+    background-color: #0099ca;
     padding: 1em 0;
+}
+header h1{
+    color: white;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+}
+nav{
+    background-color: #186baa;
+    margin-bottom: 2em;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+padding: 0;    
+}
+nav ul li{
+    display: inline-block;
+    width: 24%;
+}
+nav ul li a{
+color: white;
+text-decoration: none;
+text-align: center;
+display: block;
+padding: 0.2em 0.4em;
+}
+nav ul li a:hover{
+    background-color: darkslateblue;
+}
+footer{
+    background-color: #0099ca;
+    clear: both;
+    color: #333;
+    padding: 1em 0;
+    margin-top: 1em;
+    text-align: center;
+}
+nav ul li a.activo{
+    background-color: darkslateblue;
+}
+.content{
+    max-width: 960px;
+    margin: 0 auto;
 }
