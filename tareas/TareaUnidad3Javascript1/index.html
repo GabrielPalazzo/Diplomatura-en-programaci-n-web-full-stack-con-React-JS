@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Unid 3 JavaScript 1</title>
+</head>
+
+<body>
+    <script>
+        var nombre;
+        var distancia = '';
+        var transporte = '';
+
+        nombre = prompt('Ingrese su nombre:', '');
+        distancia = prompt('Ingrese distancia a recorrer (en metros):', '');
+
+        document.write('Hola ');
+        document.write(nombre);
+        document.write(' tu distancia a recorrer es: ');
+        document.write(distancia);
+        document.write(' metros');
+        document.write('<br>');
+       
+        
+
+        if (distancia > 0 && distancia <= 1000) {
+            transporte = 'pie';
+        } else if (distancia > 1000 && distancia <= 10000) {
+            transporte = 'bicicleta';
+        } else if (distancia > 10000 && distancia <= 30000) {
+            transporte = 'colectivo';
+        } else if (distancia > 30000 && distancia <= 100000) {
+            transporte = 'auto';
+        } else if (distancia > 100000) {
+            transporte = 'avion';
+        }
+        console.log(transporte)
+        document.write(' Te recomendamos viajar en: ', transporte);
+    </script>
+</body>
+
+</html>
