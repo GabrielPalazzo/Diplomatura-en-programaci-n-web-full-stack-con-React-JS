@@ -11,7 +11,13 @@
 <body>
     <h1>Ejercicio 02</h1>
     <script>
-        
+        var numeros = [100, 560, 1234, 3, 98, 9];
+        var mayor = 0;
+        for (var i = 0; i < numeros.length; i++) {
+            if (numeros[i] > mayor) { mayor = numeros[i] }
+        }
+        console.log('el mayor numero de ' + numeros + ' es ' + mayor);
+        document.write('el mayor numero de ' + numeros + ' es ' + mayor);
     </script>
 </body>
 
