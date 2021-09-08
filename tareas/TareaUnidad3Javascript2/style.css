@@ -1,0 +1,41 @@
+.ejercicio1{
+background-color: grey;
+float: left;
+}
+.ejercicio2{
+    background-color: grey;
+    float: left;
+}
+.ejercicio3{
+    background-color: grey;
+    float: left;
+}
+input {
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+.box1 {
+    width: 80px;
+    height: 80px;
+    top: 0px;
+    background: #556677;
+}
+.box2 {
+    width: 80px;
+    height: 80px;
+    top: 0px;
+    background: #556677;
+
+}
+.box3 {
+    width: 80px;
+    height: 80px;
+    top: 0px;
+    background: #556677;}
