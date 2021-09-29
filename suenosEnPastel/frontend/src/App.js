@@ -1,18 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import Content from './components/content';
-import Footer from './components/Footer';
+import {BrowserRouter as Router,Switch, Route} from "react-router-dom";
+import Header from './components/layout/Header';
+import Nav from './components/layout/Nav';
+import Footer from './components/layout/Footer';
+import HomePage from './pages/homePage';
+import ContactoPage from './pages/contactoPage';
+import DesayunoPage from './pages/desayunoPage';
+import NosotrosPage from './pages/nosotrosPage';
+import NovedadesPage from './pages/novedadesPage';
+import TortasPage from './pages/tortasPage';
+
 function App() {
   return (
-    <div className="App">
-     <Header/>
-     <Nav/>
-     <Content/>
-     <Footer/>
-    </div>
+    <Router>
+      <Header />
+      <Nav />
+      <Switch>
+        <Route path="/" exact component={HomePage} />
+        <Route path="/Contacto" exact component={ContactoPage} />
+        <Route path="/Desayunos" exact component={DesayunoPage} />
+        <Route path="/Nosotros" exact component={NosotrosPage} />
+        <Route path="/Novedades" exact component={NovedadesPage} />
+        <Route path="/Tortas" exact component={TortasPage} />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
-
 export default App;

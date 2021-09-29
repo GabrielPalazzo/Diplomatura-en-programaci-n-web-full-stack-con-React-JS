@@ -1,15 +1,18 @@
-const Nav = (props) => {
-    return (
+import { Link } from "react-router-dom"; 
+const Nav= (props) =>{
+    return(
         <nav>
-        <ul class="content">
-            <li> <a class="activo" href="index.html">Inicio</a></li>
-            <li> <a href="nosotros.html">Nosotros</a></li>
-            <li> <a href="tortas.html">Tortas</a></li>
-            <li> <a href="desayunos.html">Desayunos</a></li>
-            <li> <a href="novedades.html">Novedades</a></li>
-            <li> <a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+            <div className="Holder">
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/Novedades">Novedades</Link></li>
+                    <li><Link to="/Tortas">Tortas</Link></li>
+                    <li><Link to="/Desayunos">Desayunos</Link></li>
+                    <li><Link to="/Nosotros">Nosotros</Link></li>
+                    <li><Link to="/Contacto">Contacto</Link></li>
+                </ul>
+            </div>
+        </nav>
     )
 }
 export default Nav;
